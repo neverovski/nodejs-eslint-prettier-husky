@@ -1,0 +1,62 @@
+{
+  "name": "nodejs-eslint-prettier-husky",
+  "version": "1.0.0",
+  "description": "ESLint-Prettier-Husky Configuration Template for Node.js Projects",
+  "main": "main.ts",
+  "scripts": {
+    "commit-msg": "commitlint -e",
+    "commit": "git add . && git-cz",
+    "lint": "eslint \"apps/**/*.ts\" \"libs/**/*.ts\" \"tests/**/*.ts\"",
+    "lint:staged": "lint-staged",
+    "lint:fix": "eslint --fix \"apps/**/*.ts\" \"libs/**/*.ts\" \"tests/**/*.ts\"",
+    "pre-commit": "npm run lint:staged && npm run test:unit",
+    "prepare": "husky install",
+    "test:e2e": "echo \"Error: no test specified\" && exit 1",
+    "test:integration": "echo \"Error: no test specified\" && exit 1",
+    "test:unit": "echo \"Error: no test specified\" && exit 1"
+  },
+  "repository": {
+    "type": "git",
+    "url": "git+https://github.com/neverovski/nodejs-eslint-prettier-husky.git"
+  },
+  "author": "Dmitry Neverovski <dmitryneverovski@gmail.com>",
+  "license": "MIT",
+  "bugs": {
+    "url": "https://github.com/neverovski/nodejs-eslint-prettier-husky/issues",
+    "email": "dmitryneverovski@gmail.com"
+  },
+  "homepage": "https://github.com/neverovski/nodejs-eslint-prettier-husky#readme",
+  "engines": {
+    "node": "^20",
+    "npm": "^10"
+  },
+  "devDependencies": {
+    "@commitlint/cli": "^18.4.0",
+    "@commitlint/config-conventional": "^18.4.0",
+    "@commitlint/cz-commitlint": "^18.4.0",
+    "@types/node": "^20.9.0",
+    "commitizen": "^4.3.0",
+    "eslint": "^8.53.0",
+    "eslint-config-airbnb-typescript": "^17.1.0",
+    "eslint-config-prettier": "^9.0.0",
+    "eslint-import-resolver-typescript": "^3.6.1",
+    "eslint-plugin-import": "^2.29.0",
+    "eslint-plugin-prettier": "^5.0.1",
+    "eslint-plugin-typescript-sort-keys": "^3.1.0",
+    "husky": "^8.0.3",
+    "lint-staged": "^15.1.0",
+    "prettier": "^3.0.3",
+    "ts-node": "^10.9.1",
+    "tsc-watch": "^6.0.4",
+    "tsconfig-paths": "^4.2.0",
+    "typescript": "^5.2.2"
+  },
+  "config": {
+    "commitizen": {
+      "path": "@commitlint/cz-commitlint"
+    }
+  },
+  "lint-staged": {
+    "*.ts": "eslint --cache \"src/**/*.ts\" \"tests/**/*.ts\""
+  }
+}
