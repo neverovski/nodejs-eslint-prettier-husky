@@ -8,4 +8,6 @@ updates:
     labels:
       - "npm"
       - "dependencies"
+    reviewers:
+      - neverovski
     open-pull-requests-limit: 10

@@ -1,6 +1,10 @@
 # ESLint-Prettier-Husky Configuration Template for Node.js Projects
 
-This project provides a template for configuring ESLint, Prettier, and Husky in Node.js projects.
+This project is a configuration template for integrating ESLint, Prettier, and Husky into Node.js projects. It provides pre-configured settings for these tools, which can be easily copied into any Node.js project.
+
+ESLint is used for identifying and reporting on patterns found in ECMAScript/JavaScript code. Prettier is an opinionated code formatter, ensuring that all outputted code conforms to a consistent style. Husky is used to ensure that all commits meet the project's standards by running linters before each commit.
+
+The project also includes instructions on how to make git pre-commit hooks executable and how to commit using the provided npm script.
 
 ## Requirements
 
