@@ -36,7 +36,7 @@
     "@commitlint/cz-commitlint": "^18.4.3",
     "@types/node": "^20.10.4",
     "commitizen": "^4.3.0",
-    "eslint": "^8.54.0",
+    "eslint": "^8.55.0",
     "eslint-config-airbnb-typescript": "^17.1.0",
     "eslint-config-prettier": "^9.1.0",
     "eslint-import-resolver-typescript": "^3.6.1",
