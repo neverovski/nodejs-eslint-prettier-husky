@@ -34,7 +34,7 @@
     "@commitlint/cli": "^18.6.0",
     "@commitlint/config-conventional": "^18.6.0",
     "@commitlint/cz-commitlint": "^18.6.0",
-    "@types/node": "^20.11.17",
+    "@types/node": "^20.11.20",
     "commitizen": "^4.3.0",
     "eslint": "^8.56.0",
     "eslint-config-airbnb-typescript": "^17.1.0",
