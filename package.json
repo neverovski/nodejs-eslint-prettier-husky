@@ -1,6 +1,6 @@
 {
   "name": "nodejs-eslint-prettier-husky",
-  "version": "1.0.1",
+  "version": "1.0.2",
   "description": "ESLint-Prettier-Husky Configuration Template for Node.js Projects",
   "main": "main.ts",
   "scripts": {
