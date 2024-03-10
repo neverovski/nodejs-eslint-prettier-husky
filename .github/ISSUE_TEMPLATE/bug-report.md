@@ -1,9 +1,9 @@
 ---
-name: Bug report
+name: Bug report 🐛
 about: Create a report to help us improve
-title: ''
+title: '[BUG REPORT] - <title>'
 labels: bug
-assignees: ''
+assignees: neverovski
 
 ---
 
@@ -21,7 +21,7 @@ How to reproduce the behaviour:
 A clear and concise description of what you expected to happen.
 
 **Environment (please complete the following information):**
- - Node.js: [e.g. 20]
+ - Node.js: [20]
 
 **Additional context**
 Add any other context about the problem here.
