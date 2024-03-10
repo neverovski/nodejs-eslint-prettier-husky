@@ -32,7 +32,15 @@ $ cp -R /path-to-template/* /path-to-your-project/
 
 ## Notes
 
-### 1. Why is my git pre-commit hook not executable by default?
+### 1. Enable Git hooks
+
+```sh
+  npx husky install
+  npx husky add .husky/commit-msg 'npm run commit-msg'
+  npx husky add .husky/pre-commit 'npm run pre-commit'
+```
+
+### 2. Why is my git pre-commit hook not executable by default?
 
 - Please execute the below command on terminal to hook get executable by default.
 - Because files are not executable by default; they must be set to be executable.
@@ -42,10 +50,18 @@ $ chmod ug+x .husky/*
 $ chmod ug+x .git/hooks/*
 ```
 
-### 2. Git commit
+### 3. Git commit
 
 ```bash
 $ npm run commit
+```
+
+### 4. Project release
+
+```sh
+  npm run release:patch // Patch release 0.1.0 -> 0.1.1
+  npm run release:minor // Minor release 0.1.1 -> 0.2.0
+  npm run release:major // Major release 0.2.0 -> 1.0.0
 ```
 
 ## Contribution
