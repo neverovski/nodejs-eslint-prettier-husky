@@ -51,7 +51,7 @@
     "prettier": "^3.2.5",
     "standard-version": "^9.5.0",
     "ts-node": "^10.9.2",
-    "tsc-watch": "^6.0.4",
+    "tsc-watch": "^6.2.0",
     "tsconfig-paths": "^4.2.0",
     "typescript": "^5.4.2"
   },
