@@ -22,6 +22,7 @@ Simply copy the files from this project template to your Node.js project.
 
 ```bash
 $ cp -R /path-to-template/* /path-to-your-project/
+
 ```
 
 ## Configurations
